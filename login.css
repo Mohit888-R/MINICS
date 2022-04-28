@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: white;
+}
+
+nav {
+    background-color: rgba(23, 26, 63, 0.879);
+    padding: 2em;
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav h3 {
+    float: left;
+    width: 40%;
+}
+
+nav input {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 8%;
+}
+
+hr {
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+
+.form {
+    padding: 20em;
+    margin-top: -18em;
+}
+
+form {
+    /* border: 1px solid black; */
+    padding: 5em;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+form .container {
+    padding: 16px;
+}
+
+label {
+    float: left;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #323c5e;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
